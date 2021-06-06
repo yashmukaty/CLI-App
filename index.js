@@ -41,7 +41,7 @@ function welcome(){
   console.log("------------------------------"+chalk.green.bold("Let's have fun!")+"----------------------------------------");
   var userName = readlineSync.question("What's your name? ");
   console.log("");
-  console.log("Welcome "+ chalk.yellow.bold(userName) +"."+" Nice to have you here...How well do you know me? Hmmm...Let's see ;)");
+  console.log("Welcome "+ chalk.yellow.bold(userName) +"."+" Nice to have you here...How well do you know me? Hmmm...Let's see");
   console.log("");
 }
 function play(question,answer){
